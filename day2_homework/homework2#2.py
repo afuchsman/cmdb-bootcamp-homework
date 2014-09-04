@@ -27,4 +27,5 @@ for i in all_files:
             FPKM_level.append(fields[9])
             print "FPKM level for '%s' Sxl is : " %(i), FPKM_level
             break
+
         
