@@ -20,6 +20,7 @@ ref = []
 for sid, sequence in reader:
     ref.append((len(sequence), sequence))
 
+#translation code found through googleing http://stackoverflow.com/questions/19521905/translation-dna-to-protein
 
 def translate_dna(sequence):
 
@@ -69,6 +70,9 @@ for line in f:
 
 print header 
 translate_dna(line)
+
+
+
 
 
 
