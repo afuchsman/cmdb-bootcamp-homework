@@ -48,8 +48,14 @@ while True:
 #with open('seqs.csv', 'wb') as result:
 #    writer = csv.writer(result, dialect='excel')
 #    writer.writerows(file)        
-        
-        
-        
-        
+
+
+
+#prints reverse complement             
+def revcompl2( x ):
+    return ''.join([{'A':'T','C':'G','G':'C','T':'A'}[B] for B in x][::-1])
+print revcompl2(x)    
+
+revcompl2(file)        
+
         
